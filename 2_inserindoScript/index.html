@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Inserindo JavaScript Head e Body, qual a diferença?</title>
+
+    <script src="js/head.js">
+        
+    </script> <!--  inserindo o JavaScript no Head do nosso Html, o arquivo JavaScript 
+    vai ser iniciando antes do meu arquivo Html, podendo ocasionar problemas quando manipular o DOM -->
+</head>
+<body>
+    <h1> teste </h1>
+
+    <script src="js/body.js"> 
+     </script> <!--quando o arquivo Js está inserido no fim do nosso 
+    body, o arquivo é carregado após o nosso Arquivo HTml -->
+</body>
+</html>
